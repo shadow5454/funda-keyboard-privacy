@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Funda Keyboard 개인정보 처리방침</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #5c5c66;
+    --line: #e2e2e8;
+    --accent: #2b5fd0;
+    --card: #f7f7fa;
+    --code: #ececf2;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #15151a;
+      --fg: #e9e9ef;
+      --muted: #a6a6b2;
+      --line: #2c2c36;
+      --accent: #7ea2ff;
+      --card: #1d1d25;
+      --code: #26262f;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Noto Sans KR", "Malgun Gothic", system-ui, sans-serif;
+    line-height: 1.7;
+    font-size: 17px;
+  }
+  main {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 2.5rem 1.25rem 4rem;
+  }
+  header { border-bottom: 1px solid var(--line); padding-bottom: 1.25rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.7rem; line-height: 1.3; margin: 0 0 .5rem; }
+  h2 { font-size: 1.2rem; margin: 2.25rem 0 .75rem; padding-top: 1rem; border-top: 1px solid var(--line); }
+  h2:first-of-type { border-top: 0; padding-top: 0; }
+  p { margin: .6rem 0; }
+  .meta { color: var(--muted); font-size: .95rem; margin: 0; }
+  .lead { color: var(--muted); }
+  ul { margin: .5rem 0; padding-left: 1.2rem; }
+  li { margin: .45rem 0; }
+  dl { margin: .5rem 0; }
+  dt { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .95rem; background: var(--code); display: inline-block; padding: .1rem .4rem; border-radius: .3rem; margin-top: .9rem; }
+  dd { margin: .25rem 0 0; color: var(--fg); }
+  .note { background: var(--card); border: 1px solid var(--line); border-radius: .6rem; padding: .85rem 1rem; color: var(--muted); font-size: .95rem; margin: 1rem 0; }
+  .src { margin: .9rem 0; }
+  .src .name { font-weight: 600; }
+  .src .lic { color: var(--muted); font-size: .92rem; }
+  a { color: var(--accent); overflow-wrap: anywhere; }
+  footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Funda Keyboard 개인정보 처리방침</h1>
+    <p class="meta">갱신일 2026-10-04</p>
+  </header>
+
+  <p class="lead">Funda Keyboard는 iOS·iPadOS용 한국어 키보드입니다. 이 문서는 앱이 어떤 정보를 다루고 다루지 않는지를, 코드를 실제로 감사한 결과만 담아 설명합니다.</p>
+
+  <h2>수집하지 않는 정보</h2>
+  <ul>
+    <li>Funda Keyboard는 사용자가 입력한 내용을 외부로 전송하지 않습니다. 키 입력은 입력 중인 앱의 문서에 전달됩니다. 다만 「학습 단어」 기능을 쓰면 자주 친 낱말이 기기 안에만 저장되며, 설정에서 언제든 전부 지울 수 있습니다.</li>
+    <li>인터넷으로 어떤 데이터도 전송하지 않습니다. 이 앱에는 네트워크 통신 코드가 없습니다.</li>
+    <li>사용 기록을 외부로 수집하거나 추적하지 않습니다. 분석·광고·추적 도구를 일절 포함하지 않습니다. 학습 단어는 기기를 떠나지 않으며 저희도 볼 수 없습니다.</li>
+    <li>타사 SDK를 사용하지 않습니다. 앱이 참조하는 코드는 전부 이 앱의 자체 구성 요소입니다.</li>
+    <li>기기에 저장하는 것은 아래 설정값과 학습 단어, 자주 쓰는 문구, 클립보드 기록뿐이며, 기기를 떠나지 않습니다. 자주 쓰는 문구는 문구 화면에서 지울 수 있습니다. 클립보드 기록은 키보드에서 「복사 저장」을 눌렀을 때만 생기며, 입력한 글자를 기록으로 옮기지 않습니다. 항목을 위로 밀면 같은 기록 안에서 고정됩니다. 설정에서 지울 수 있으며, 전체 삭제는 고정도 지웁니다.</li>
+  </ul>
+
+  <h2>기기에 저장하는 설정값</h2>
+  <dl>
+    <dt>schemaVersion</dt><dd>설정 형식의 버전 번호입니다.</dd>
+    <dt>hapticEnabled</dt><dd>키 입력 시 진동 피드백을 켤지 여부입니다.</dd>
+    <dt>keyboardHeight</dt><dd>키보드 높이 설정값입니다. 가장 낮게 / 낮게 / 보통 / 크게 중 하나입니다.</dd>
+    <dt>keyTiming</dt><dd>키를 누르고 있을 때의 반응 속도 설정값입니다. 표준 / 느긋하게 중 하나입니다.</dd>
+    <dt>autocapitalizationEnabled</dt><dd>영문 문장의 첫 글자를 대문자로 올릴지 여부입니다.</dd>
+    <dt>bottomPeriodEnabled</dt><dd>한글·영문 자판의 하단 오른쪽 마침표 키를 둘지 여부입니다. 숫자 자판의 마침표는 그대로입니다.</dd>
+    <dt>doubleSpacePeriodEnabled</dt><dd>영문 페이지에서 스페이스를 두 번 누르면 마침표를 넣을지 여부입니다.</dd>
+    <dt>numberRowEnabled</dt><dd>한글·영문 자판의 상단 숫자열을 둘지 여부입니다. 끄면 그 두 자판은 네 줄 높이가 되고, 숫자·기호 자판은 다섯 줄로 남습니다.</dd>
+    <dt>learned.words</dt><dd>자주 치신 낱말과 그 횟수입니다. 추천에 쓰이며 기기를 떠나지 않습니다.</dd>
+    <dt>learned.paused</dt><dd>학습을 일시 중지했는지 여부입니다.</dd>
+    <dt>phrase.records</dt><dd>앱에서 저장한 문구의 제목과 본문입니다. 기기를 떠나지 않습니다. 키보드는 이 값을 수정하지 않습니다. 키보드가 읽어 입력합니다.</dd>
+    <dt>clipboard.records</dt><dd>키보드에서 복사 저장을 눌렀을 때 남긴 글자입니다. 기기를 떠나지 않습니다. 입력한 글자는 이 기록에 들어가지 않습니다. 항목을 위로 밀면 같은 배열 안에서 고정됩니다. 설정에서 지울 수 있으며, 전체 삭제는 고정도 지웁니다.</dd>
+  </dl>
+  <p class="note">위 값은 이 앱과 키보드가 공유하는 기기 내부 저장소(App Group)에만 보관되며, 앱을 삭제하면 함께 지워집니다.</p>
+
+  <h2>전체 접근 허용(Full Access)</h2>
+  <p>아래 기능에만 전체 접근 허용을 사용합니다.</p>
+  <ul>
+    <li>클릭음 — 키를 누를 때 시스템 클릭 사운드를 재생합니다.</li>
+    <li>햅틱 — 키 입력에 촉각 진동 피드백을 제공합니다.</li>
+    <li>App Group 설정 공유 — 컨테이너 앱에서 설정한 값(햅틱 등)을 키보드가 읽어 반영합니다.</li>
+    <li>학습 단어 저장 — 자주 치신 낱말을 기기 안에만 기억해 추천에 올립니다. 꺼져 있으면 저장되지 않습니다.</li>
+    <li>자주 쓰는 문구 — 앱에 저장한 문구를 키보드에서 골라 넣습니다. 꺼져 있으면 문구를 보여 주지 않습니다. 키보드가 문구를 추가하거나 고치지는 않습니다.</li>
+    <li>클립보드 기록 — 복사 저장을 눌렀을 때만 복사한 글자를 기기 안에 남깁니다. 항목을 위로 밀면 같은 기록 안에서 고정합니다. 꺼져 있으면 저장하거나 보여 주지 않습니다. 친 글자를 기록으로 옮기지는 않습니다.</li>
+  </ul>
+  <p class="note">전체 접근 허용을 꺼도 문자 입력·삭제·스페이스·리턴·키보드 전환은 항상 동작합니다.</p>
+
+  <h2>사용한 공공 자료</h2>
+  <p>키보드 추천 단어는 아래 공공 자료를 가공해 앱 안에 담았습니다. 인터넷 연결 없이 기기 안에서만 동작하며, 입력한 내용이 이 자료 쪽에 기록되는 일은 없습니다. 자주 친 낱말은 별도의 학습 목록에 기기 안에만 쌓이며 설정에서 지울 수 있습니다. 자주 쓰는 문구도 기기 안에만 있으며 문구 화면에서 지울 수 있습니다.</p>
+  <div class="src">
+    <div class="name">국립국어원 「현대 국어 사용 빈도 조사」</div>
+    <div class="lic">공공누리 제1유형(출처표시)</div>
+    <div><a href="https://www.korean.go.kr/front/etcData/etcDataView.do?mn_id=46&amp;etc_seq=61">https://www.korean.go.kr/front/etcData/etcDataView.do?mn_id=46&amp;etc_seq=61</a></div>
+  </div>
+  <div class="src">
+    <div class="name">Google Books Ngram ∩ SCOWL (SymSpell 빈도 목록)</div>
+    <div class="lic">CC BY 3.0</div>
+    <div><a href="https://github.com/wolfgarbe/SymSpell">https://github.com/wolfgarbe/SymSpell</a></div>
+  </div>
+
+  <h2>문의</h2>
+  <p>개인정보 처리방침에 대한 문의는 <a href="mailto:shadow5454@icloud.com">shadow5454@icloud.com</a>으로 메일을 보내 주세요.</p>
+
+  <footer>
+    <p>Funda Keyboard · 개인정보 처리방침 · 갱신일 2026-10-04</p>
+  </footer>
+</main>
+</body>
+</html>
